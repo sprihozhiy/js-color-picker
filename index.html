@@ -3,8 +3,44 @@
   <head>
     <meta charset="utf-8">
     <title>JavaScript Color Picker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
   </head>
   <body>
+    <div class="container">
+        <h2>Simple Color Picker</h2>
+        <p>You can choose any color from color palletes</p>
+        <div class="colorBlock">
+          <div class="wrapper">
+            <label for="firstColor">Color #1</label>
+            <input type="range" id="firstColor" min="0" max="255">
+            <span id="rangeOutput1">Color Here...</span>
+          </div>
+          <div class="colorCircle" id="firstCircle"></div>
+        </div>
+        <div class="colorBlock">
+          <div class="wrapper">
+            <label for="secondColor">Color #2</label>
+            <input type="range" id="secondColor" min="0" max="255">
+            <span id="rangeOutput2">Color Here...</span>
+          </div>
+          <div class="colorCircle" id="secondCircle"></div>
+        </div>
+        <div class="colorBlock">
+          <div class="wrapper">
+            <label for="thirdColor">Color #3</label>
+            <input type="range" id="thirdColor" min="0" max="255">
+            <span id="rangeOutput3">Color Here...</span>
+          </div>
+          <div class="colorCircle" id="thirdCircle"></div>
+        </div>
+        <div>
+          <h3>Result</h3>
+          <div  id="outputColor"></div>
+        </div>
+        <div id="outputValue"><h4>RGB(<span id="rgb1">R</span>,<span id="rgb2">G</span>,<span id="rgb3">B</span>)</h4></div>
+    </div>
 
+    <script src="script.js"></script>
   </body>
 </html>

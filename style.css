@@ -1,0 +1,60 @@
+/*
+#00293c - navy
+#1e656d - peacock blue
+#f1f3ce - ivory
+#f62a00 - candy apple
+*/
+
+body {
+  background-color: #1e656d;
+  box-sizing: border-box;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container {
+  width: 760px;
+  margin: 10px auto;
+  padding: 10px;
+  background: #f1f3ce;
+  color: #00293c;
+  text-align: center;
+}
+
+.colorBlock {
+  padding: 15px 0;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+label {
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+input {
+  display: block;
+}
+
+.colorCircle {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 1px solid #00293c;
+  display: inline-block;
+  position: relative;
+  bottom: 20px;
+  left: 20px;
+}
+
+#outputColor {
+  margin: 0 auto;
+  height: 50px;
+  width: 240px;
+  border: 1px solid #00293c;
+  border-radius: 4px;
+}
